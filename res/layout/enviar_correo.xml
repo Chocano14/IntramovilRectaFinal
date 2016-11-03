@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fcf5b4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Correo"
+        android:id="@+id/textView11"
+        android:textColor="#000000"
+        android:textSize="60px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <EditText
+        android:ems="10"
+        android:hint="Asunto"
+        android:id="@+id/et_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_text"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:ems="10"
+        android:hint="Mensaje"
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Enviar Correo"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="169dp"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnCorreo"
+        android:layout_above="@+id/et_sub"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

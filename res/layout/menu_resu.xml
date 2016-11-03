@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hgmovil.intramovil.view.MenuResu"
+    android:background="#fcf5b4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resumen Academico"
+        android:id="@+id/textView6"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnResum" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver"
+        android:id="@+id/btnResum"
+        android:layout_marginTop="35dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginRight="120dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#0c0c0c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Asignatura"
+        android:layout_below="@+id/btnResum"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentEnd="true"
+        android:background="#f77613"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Asignatura1"
+        android:background="#f77613"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Asignatura"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Asignatura2"
+        android:layout_below="@+id/Asignatura1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:background="#f77613"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Asignatura3"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/Asignatura2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#f77613"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Asignatura4"
+        android:layout_below="@+id/Asignatura3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:background="#f77613"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Asignatura5"
+        android:layout_below="@+id/Asignatura4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:background="#f77613"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Asignatura6"
+        android:layout_below="@+id/Asignatura5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:background="#f77613"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencia"
+        android:id="@+id/txt1Asis"
+        android:layout_below="@+id/Asignatura"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio"
+        android:id="@+id/txt1Prome"
+        android:layout_alignTop="@+id/txt1Asis"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"
+        android:id="@+id/txt1Situ"
+        android:layout_alignTop="@+id/txt1Prome"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencia"
+        android:id="@+id/txt2Asis"
+        android:layout_below="@+id/Asignatura1"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio"
+        android:id="@+id/txt2Prome"
+        android:layout_below="@+id/Asignatura1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"
+        android:id="@+id/txt2Situ"
+        android:layout_below="@+id/Asignatura1"
+        android:layout_alignEnd="@+id/txt1Situ"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencia"
+        android:id="@+id/txt3Asis"
+        android:layout_below="@+id/Asignatura2"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio"
+        android:id="@+id/txt3Prome"
+        android:layout_below="@+id/Asignatura2"
+        android:layout_alignEnd="@+id/txt1Prome"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"
+        android:id="@+id/txt3Situ"
+        android:layout_below="@+id/Asignatura2"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencia"
+        android:id="@+id/txt4Asis"
+        android:layout_below="@+id/Asignatura3"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio"
+        android:id="@+id/txt4Prome"
+        android:layout_below="@+id/Asignatura3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"
+        android:id="@+id/txt4Situ"
+        android:layout_alignTop="@+id/txt4Prome"
+        android:layout_alignStart="@+id/txt3Situ"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencia"
+        android:id="@+id/txt5Asis"
+        android:layout_below="@+id/Asignatura4"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio"
+        android:id="@+id/txt5Prome"
+        android:layout_below="@+id/Asignatura4"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"
+        android:id="@+id/txt5Situ"
+        android:layout_alignTop="@+id/txt5Prome"
+        android:layout_alignStart="@+id/txt4Situ"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencia"
+        android:id="@+id/txt6Asis"
+        android:layout_below="@+id/Asignatura5"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio"
+        android:id="@+id/txt6Prome"
+        android:layout_alignTop="@+id/txt6Asis"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"
+        android:id="@+id/txt6Situ"
+        android:layout_alignTop="@+id/txt6Prome"
+        android:layout_alignStart="@+id/txt5Situ"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencia"
+        android:id="@+id/txt7Asis"
+        android:layout_below="@+id/Asignatura6"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio"
+        android:id="@+id/txt7Prome"
+        android:layout_alignTop="@+id/txt7Asis"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situacion"
+        android:id="@+id/txt7Situ"
+        android:layout_alignTop="@+id/txt7Prome"
+        android:layout_alignStart="@+id/txt6Situ"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAsisten"
+        android:layout_below="@+id/txt1Asis"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProm"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/txt1Prome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSitu"
+        android:layout_below="@+id/txt1Situ"
+        android:layout_alignEnd="@+id/txt1Situ" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAsisten1"
+        android:layout_alignTop="@+id/txtProm1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProm1"
+        android:layout_below="@+id/txt2Prome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSitu1"
+        android:layout_below="@+id/txt2Situ"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAsisten2"
+        android:layout_below="@+id/txt3Asis"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProm2"
+        android:layout_below="@+id/txt3Prome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSitu2"
+        android:layout_alignTop="@+id/txtProm2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAsisten3"
+        android:layout_below="@+id/txt4Asis"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProm3"
+        android:layout_below="@+id/txt4Prome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSitu3"
+        android:layout_below="@+id/txt4Situ"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAsisten4"
+        android:layout_below="@+id/txt5Asis"
+        android:layout_alignParentStart="true"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProm4"
+        android:layout_below="@+id/txt5Prome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSitu4"
+        android:layout_below="@+id/txt5Situ"
+        android:layout_alignStart="@+id/txtSitu3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAsisten5"
+        android:layout_below="@+id/txt6Asis"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProm5"
+        android:layout_below="@+id/txt6Prome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSitu5"
+        android:layout_below="@+id/txt6Situ"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAsisten6"
+        android:layout_below="@+id/txt7Asis"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProm6"
+        android:layout_below="@+id/txt7Prome"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSitu6"
+        android:layout_below="@+id/txt7Situ"
+        android:layout_alignEnd="@+id/txt7Situ" />
+
+</RelativeLayout>

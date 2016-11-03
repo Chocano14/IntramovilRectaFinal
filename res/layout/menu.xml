@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="1100dp"
+            android:visibility="visible"
+            android:id="@+id/bgrSede"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Bienvenido"
+                android:id="@+id/textView"
+                android:textColor="#3077f1"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnNotas"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="111dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/BtnMateriales"
+                android:layout_toStartOf="@+id/BtnMateriales"
+                android:background="@drawable/notas2" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnAsistencia"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_alignTop="@+id/BtnNotas"
+                android:layout_toRightOf="@+id/BtnMateriales"
+                android:layout_toEndOf="@+id/BtnMateriales"
+                android:background="@drawable/asistencia12" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnHorario"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="38dp"
+                android:layout_below="@+id/BtnNotas"
+                android:layout_alignLeft="@+id/BtnNotas"
+                android:layout_alignStart="@+id/BtnNotas"
+                android:background="@drawable/orario12" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnBusquet"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/BtnHorario"
+                android:layout_alignStart="@+id/BtnHorario"
+                android:layout_marginTop="600dp"
+                android:background="@drawable/bsqueda2" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnResAc"
+                android:layout_gravity="left|bottom"
+                android:layout_below="@+id/BtnHorario"
+                android:layout_alignLeft="@+id/BtnHorario"
+                android:layout_alignStart="@+id/BtnHorario"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/acad2" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnPag"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_alignTop="@+id/BtnHorario"
+                android:layout_alignLeft="@+id/BtnAsistencia"
+                android:layout_alignStart="@+id/BtnAsistencia"
+                android:background="@drawable/pgosd2" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnMateriales"
+                android:layout_gravity="right|bottom"
+                android:layout_alignTop="@+id/BtnNotas"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="650dp"
+                android:background="@drawable/material" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnCorreos"
+                android:layout_gravity="right|bottom"
+                android:layout_alignTop="@+id/BtnResAc"
+                android:layout_alignLeft="@+id/BtnPag"
+                android:layout_alignStart="@+id/BtnPag"
+                android:background="@drawable/mail232" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/BtnAlam"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginTop="590dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="55dp"
+                android:layout_marginEnd="55dp"
+                android:background="@drawable/larmak2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis Notas"
+                android:id="@+id/txtNota"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="225dp"
+                android:layout_marginLeft="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mi Asistencia"
+                android:id="@+id/txtAsist"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="225dp"
+                android:layout_marginLeft="225dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mi Horario"
+                android:id="@+id/txtHora"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="385dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis Pagos"
+                android:id="@+id/txtPago"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="385dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Resumen \nAcademico"
+                android:id="@+id/txtResAca"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="535dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mi Correo"
+                android:id="@+id/txtCorreo"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="540dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buscar \n  Sala"
+                android:id="@+id/txtBuscSal"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="700dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alarmas"
+                android:id="@+id/txtAlarm"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="710dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      Mis \nMateriales"
+                android:id="@+id/txtMate"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="880dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtUser"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Desconectarse"
+                android:id="@+id/btnSalir"
+                android:background="@android:color/holo_orange_dark"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="800dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="ingresar"
+                android:nestedScrollingEnabled="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
